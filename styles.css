@@ -74,6 +74,8 @@ button {
     text-align: center;
 }
 .container-button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     width: 200px;
     height: 50px;
     font-weight: bold;
@@ -89,12 +91,22 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
 }
-h3 {
+.features-title {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 1.14;
     text-transform: uppercase;
+}
+.features-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+
 }
 .name {
     font-weight: 500;
@@ -120,14 +132,32 @@ h3 {
 .footer .address {
     color: var(--white-color);
 }
-address a {
+address .address {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+address a {
+    font-family: 'Roboto', sans-serif;    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .menu-btn {
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
     background-color: F5F4FA;
     color: var(--dark-grey-color);
 }
@@ -135,4 +165,19 @@ address a {
 .menu-btn:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
+}
+.gallery-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--dark-grey-color);
+}
+.gallery-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+
 }
